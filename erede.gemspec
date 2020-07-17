@@ -21,5 +21,5 @@ Gem::Specification.new do |spec|
 
   spec.require_paths = ["lib"]
   spec.add_dependency "bundler", "~> 1.17.3"
-  spec.add_dependency "json", "~> 2.2"
+  spec.add_dependency "json", "~> 1.8.6"
 end
