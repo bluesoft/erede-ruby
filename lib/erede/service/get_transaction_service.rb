@@ -3,10 +3,9 @@ require "erede/service/transaction_service"
 module EREDE
   module SERVICE
     class GetTransactionService < TransactionService
-      attr_accessor :store
 
       def initialize(store)
-        @store = store
+        super(store)
       end
     end
   end
